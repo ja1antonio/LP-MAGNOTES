@@ -217,7 +217,7 @@ section {
   color: var(--orange);
 }
 
-.tool .slide {
+.works .slide {
   background: var(--light-bg);
   border-radius: 0.5rem;
   text-align: center;
@@ -225,18 +225,18 @@ section {
   margin-bottom: 4rem;
 }
 
-.tool .slide img {
+.works .slide img {
   height: 25rem;
   width: 100%;
 }
 
-.tool .slide h3 {
+.works .slide h3 {
   margin: 1.5rem 0;
   font-size: 2rem;
   color: var(--white);
 }
 
-.tool .slide p {
+.works .slide p {
   line-height: 2;
   font-size: 1.6rem;
   color: var(--light-white);
