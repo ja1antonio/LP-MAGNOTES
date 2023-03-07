@@ -211,10 +211,12 @@ section {
   text-align: center;
   font-size: 4rem;
   color: var(--white);
+  text-transform: uppercase;
 }
 
 .heading span {
   color: var(--orange);
+  text-transform: uppercase;
 }
 
 .works .slide {
@@ -223,6 +225,7 @@ section {
   text-align: center;
   padding: 2rem;
   margin-bottom: 4rem;
+  user-select: none;
 }
 
 .works .slide img {
@@ -248,6 +251,57 @@ section {
 .swiper-pagination-bullet-active {
   background-color: var(--orange);
 }
+
+.devs .slide {
+  position: relative;
+
+  overflow: hidden;
+  margin-bottom: 4rem;
+  user-select: none;
+}
+.devs .slide img {
+  height: 55rem;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+
+.devs .slide h3 {
+  margin-top: 1.5rem;
+  font-size: 2rem;
+  color: var(--white);
+  text-align: center;
+}
+
+.devs .slide .share {
+  position: absolute;
+  top: 1rem;
+  left: -10rem;
+}
+
+.devs .slide:hover .share {
+  left: 2rem;
+}
+
+.devs .slide .share a {
+  display: block;
+  margin-top: 1rem;
+  height: 4.5rem;
+  width: 4.5rem;
+  line-height: 4.5rem;
+  border-radius: 0.5rem;
+  background-color: var(--white);
+  color: var(--black);
+  text-align: center;
+  font-size: 2rem;
+}
+
+.devs .slide .share a:hover {
+  background-color: var(--orange);
+  color: var(--white);
+}
+
+/* REVIEWS */
 
 /* @media */
 
@@ -306,5 +360,8 @@ section {
 
   .home .row .content h3 {
     font-size: 5rem;
+  }
+  .heading {
+    font-size: 3rem;
   }
 }
