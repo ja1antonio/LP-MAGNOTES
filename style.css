@@ -6,6 +6,7 @@
   --light-white: #999591;
   --black: #232129;
   --light-bg: #3e3b47;
+  --shadow: 0 5px 14px rgba(0, 0, 0, 0.25), 0 5px 5px rgba(0, 0, 0, 0.22);
 }
 
 * {
@@ -294,6 +295,7 @@ section {
   color: var(--black);
   text-align: center;
   font-size: 2rem;
+  box-shadow: 0 5px 14px rgba(0, 0, 0, 0.25), 0 5px 5px rgba(0, 0, 0, 0.22);
 }
 
 .devs .slide .share a:hover {
